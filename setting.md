@@ -2,11 +2,12 @@
 
 ## Основные параметры
 
-[Пушилка](https://habr.com/ru/company/vkontakte/blog/265731/)
-
 1. Соединений нужно очень много - повышение umilit -n до уровня в >10к дескрипторов.
 2. Вместо MaxIdleConnsPerHost задаем CURLOPT_MAXCONNECTS побольше, иначе опять не взлетим по CPU.
 3. http.Client с увеличенным MaxIdleConnsPerHost для поддержки keep-alive.
+4. При отправке в GCM установить параметр отправки delay_while_idle в true — он говорит о том, что не нужно доставлять пуш пользоватлю, если устройство не активно.
+5. Знаем версию его приложения, версию операционки смартфона, модель устройства и часовой пояс пользователя. Всю интересную для маркетинга статистику мы вытаскиваем и сохраняем на сервере.
+6. Чтобы не перегрузить сервис - в течение дня она рассылает каждый час по несколько тысяч сообщений, а не пушит всю базу в один присест.
 
 
 
@@ -84,3 +85,22 @@ for {
 	}
 }
 ```
+
+
+
+## Links
+[Пушилка](https://habr.com/ru/company/vkontakte/blog/265731/)
+[Основы успешной реализации push-уведомлений для мобильных приложений](https://habr.com/ru/company/techmas/blog/262411/)
+[Stack](https://docs.parseplatform.org/rest/guide/)
+[Test](https://www.pushwoosh.com/demo-success/)
+[Web push](https://habr.com/ru/post/321924/)
+
+
+## GO Lib
+[Chanal](https://gobyexample.com/non-blocking-channel-operations)
+[Chanal talk](https://talks.golang.org/2012/10things.slide#1)
+[Switch](https://github.com/golang/go/wiki/Switch)
+
+
+
+
