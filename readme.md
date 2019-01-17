@@ -145,8 +145,11 @@ Cервис, созданный для отправки уведомлений �
 
 #### Сокращения и материалы
 
-[APNS](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)
-[AWNS](https://aws.amazon.com/ru/sns/)
+[APNS](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)     
+[AWNS](https://aws.amazon.com/ru/sns/)       
+[Руководство по работе с Apple Push Notification Service](https://habr.com/ru/post/156811/)   
+[Рассылка пуш уведомлений на Go]  (https://habr.com/ru/company/vkontakte/blog/265731/)   
+
 
 
 
