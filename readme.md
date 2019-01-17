@@ -113,7 +113,6 @@
 |**api/wallet/balance/{id}**|Баланс |
 
 
-
 #### Error
 
 |Code|Description|
@@ -124,6 +123,26 @@
 |3|Bad connection|
 |4|Low speed|
 |5|Other error|
+
+
+#### Tables
+
+|Code|Description|
+|---|---|
+|Notification|Отправленные сообщения|
+|Log|Логирование операций|
+|Tx|Транзакции|
+|Token|Токины|
+|Error|Описание ошибок|
+|Status|Сататус сервиса|
+|Stat|Статистика использования сервиса (нагрузка, количество транзакций, сообщений)|
+
+
+
+
+
+
+
 
 
 
