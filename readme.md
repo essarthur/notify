@@ -135,8 +135,13 @@
 |Token|Токины|
 |Error|Описание ошибок|
 |Status|Сататус сервиса|
+|Settings|Настройки сервиса|
 |Stat|Статистика использования сервиса (нагрузка, количество транзакций, сообщений)|
 
+
+
+#### Сокращения и материалы
+[APNS](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)
 
 
 
